@@ -7,8 +7,8 @@ opencv-python>=4.1.2
 Pillow
 PyYAML>=5.3.1
 scipy>=1.4.1
-torch==1.7.0
-torchvision==0.8.1
+http://download.pytorch.org/whl/cpu/torch-1.7.0%2Bcpu-cp38-cp38-linux_x86_64.whl
+http://download.pytorch.org/whl/cpu/torchvision-0.8.1%2Bcpu-cp38-cp38-linux_x86_64.whl
 tqdm>=4.41.0
 uvicorn>=0.12.3
 aiofiles>=0.6.0
