@@ -21,7 +21,7 @@ def detect(source, save_img=False):
     imgsz = 416
     device = ''
     augment = False
-    source = 'test_images/'+source
+    source = source
     weights = 'weights/best.pt'
     # /mnt/d/Thesis/yolo_test/yolov5/
     # webcam = source.isnumeric() or source.endswith('.txt') or source.lower().startswith(

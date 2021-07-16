@@ -8,7 +8,7 @@ router = APIRouter()
 
 @router.post("/detect")
 async def root(file: UploadFile = File(...)):
-    with open(f'test_images/{file.filename}', 'wb') as buffer:
+    with open(file.filename, 'wb') as buffer:
         shutil.copyfileobj(file.file, buffer)
     image = detect(source=file.filename)
     return FileResponse(image)
